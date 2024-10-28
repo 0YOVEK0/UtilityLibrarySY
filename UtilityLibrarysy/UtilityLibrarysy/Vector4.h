@@ -29,11 +29,7 @@ public:
 
     Vector4 normalize() const {
         float mag = magnitude();
-        return (mag == 0) ? Vector4(0, 0, 0, 0) : Vector4(x / mag, y / mag, z / mag, w / mag);
-    }
-
-    float* data() {
-        return &x;
+        return (mag > 0) ? Vector4(x / mag, y / mag, z / mag, w / mag) : Vector4();
     }
 
     const float* data() const {

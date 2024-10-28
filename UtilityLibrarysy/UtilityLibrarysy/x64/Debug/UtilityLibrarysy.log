@@ -1,2 +1,5 @@
 ﻿  UtilityLibrarysy.cpp
+D:\GC\UtilityLibrarySY\UtilityLibrarysy\UtilityLibrarysy\Quaternion.h(25,25): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+  (compilando archivo de origen "UtilityLibrarysy.cpp")
+  
   UtilityLibrarysy.vcxproj -> D:\GC\UtilityLibrarySY\UtilityLibrarysy\x64\Debug\UtilityLibrarysy.exe

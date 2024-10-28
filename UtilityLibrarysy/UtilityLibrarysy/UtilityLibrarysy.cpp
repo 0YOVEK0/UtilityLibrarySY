@@ -2,22 +2,41 @@
 #include "Vector2.h"
 #include "Vector3.h"
 #include "Vector4.h"
+#include "Quaternion.h"
 
 int main() {
-    // Pruebas para Vector2
-    Vector2 v1_2D(3.0f, 4.0f);
-    Vector2 v2_2D = v1_2D + Vector2(1.0f, 2.0f);
-    std::cout << "Vector2 v2: (" << v2_2D.x << ", " << v2_2D.y << ")\n";
+    // Ejemplo de uso de Vector2
+    Vector2 v2(3.0f, 4.0f);
+    std::cout << "Vector2: (" << v2.x << ", " << v2.y << ")\n";
 
-    // Pruebas para Vector3
-    Vector3 v1_3D(3.0f, 4.0f, 5.0f);
-    Vector3 v2_3D = v1_3D + Vector3(1.0f, 2.0f, 3.0f);
-    std::cout << "Vector3 v2: (" << v2_3D.x << ", " << v2_3D.y << ", " << v2_3D.z << ")\n";
+    // Ejemplo de uso de Vector3
+    Vector3 v3(1.0f, 0.0f, 0.0f);
+    std::cout << "Vector3: (" << v3.x << ", " << v3.y << ", " << v3.z << ")\n";
 
-    // Pruebas para Vector4
-    Vector4 v1_4D(1.0f, 2.0f, 3.0f, 4.0f);
-    Vector4 v2_4D = v1_4D + Vector4(1.0f, 1.0f, 1.0f, 1.0f);
-    std::cout << "Vector4 v2: (" << v2_4D.x << ", " << v2_4D.y << ", " << v2_4D.z << ", " << v2_4D.w << ")\n";
+    // Ejemplo de uso de Vector4
+    Vector4 v4(1.0f, 2.0f, 3.0f, 4.0f);
+    std::cout << "Vector4: (" << v4.x << ", " << v4.y << ", " << v4.z << ", " << v4.w << ")\n";
+
+    // Ejemplo de uso de Quaternion
+    Quaternion q1(1.0f, 0.0f, 0.0f, 0.0f);
+    Vector3 axis(0.0f, 1.0f, 0.0f);
+    float angle = 90.0f;
+    Quaternion q2(axis, angle);
+
+    Quaternion q3 = q1 + q2;
+    Quaternion q4 = q1 * q2;
+    Quaternion q5 = q2 * 0.5f;
+    float mag = q2.magnitude();
+    Quaternion q6 = q2.normalize();
+    Quaternion qConjugate = q2.conjugate();
+    Quaternion qInverse = q2.inverse();
+
+    Vector3 v(1.0f, 0.0f, 0.0f);
+    Vector3 vRotated = q2.rotate(v);
+
+    // Mostrar resultados
+    std::cout << "Magnitude of q2: " << mag << "\n";
+    std::cout << "Rotated Vector: (" << vRotated.x << ", " << vRotated.y << ", " << vRotated.z << ")\n";
 
     return 0;
 }

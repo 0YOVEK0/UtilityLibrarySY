@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "D:\\GC\\UtilityLibrarySY\\UtilityLibrarysy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{42F2508C-0FCA-48E2-AE94-90180470073C}|UtilityLibrarysy\\UtilityLibrarysy.vcxproj|D:\\GC\\UtilityLibrarySY\\UtilityLibrarysy\\UtilityLibrarysy\\Vector2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{42F2508C-0FCA-48E2-AE94-90180470073C}|UtilityLibrarysy\\UtilityLibrarysy.vcxproj|solutionrelative:UtilityLibrarysy\\Vector2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{42F2508C-0FCA-48E2-AE94-90180470073C}|UtilityLibrarysy\\UtilityLibrarysy.vcxproj|D:\\GC\\UtilityLibrarySY\\UtilityLibrarysy\\UtilityLibrarysy\\Vector4.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{42F2508C-0FCA-48E2-AE94-90180470073C}|UtilityLibrarysy\\UtilityLibrarysy.vcxproj|solutionrelative:UtilityLibrarysy\\Vector4.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42F2508C-0FCA-48E2-AE94-90180470073C}|UtilityLibrarysy\\UtilityLibrarysy.vcxproj|D:\\GC\\UtilityLibrarySY\\UtilityLibrarysy\\UtilityLibrarysy\\Quaternion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{42F2508C-0FCA-48E2-AE94-90180470073C}|UtilityLibrarysy\\UtilityLibrarysy.vcxproj|solutionrelative:UtilityLibrarysy\\Quaternion.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42F2508C-0FCA-48E2-AE94-90180470073C}|UtilityLibrarysy\\UtilityLibrarysy.vcxproj|D:\\GC\\UtilityLibrarySY\\UtilityLibrarysy\\UtilityLibrarysy\\UtilityLibrarysy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -15,8 +19,8 @@
       "RelativeMoniker": "D:0:0:{42F2508C-0FCA-48E2-AE94-90180470073C}|UtilityLibrarysy\\UtilityLibrarysy.vcxproj|solutionrelative:UtilityLibrarysy\\Vector3.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42F2508C-0FCA-48E2-AE94-90180470073C}|UtilityLibrarysy\\UtilityLibrarysy.vcxproj|D:\\GC\\UtilityLibrarySY\\UtilityLibrarysy\\UtilityLibrarysy\\Vector4.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{42F2508C-0FCA-48E2-AE94-90180470073C}|UtilityLibrarysy\\UtilityLibrarysy.vcxproj|solutionrelative:UtilityLibrarysy\\Vector4.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{42F2508C-0FCA-48E2-AE94-90180470073C}|UtilityLibrarysy\\UtilityLibrarysy.vcxproj|D:\\GC\\UtilityLibrarySY\\UtilityLibrarysy\\UtilityLibrarysy\\Vector2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{42F2508C-0FCA-48E2-AE94-90180470073C}|UtilityLibrarysy\\UtilityLibrarysy.vcxproj|solutionrelative:UtilityLibrarysy\\Vector2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,24 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Vector4.h",
-              "DocumentMoniker": "D:\\GC\\UtilityLibrarySY\\UtilityLibrarysy\\UtilityLibrarysy\\Vector4.h",
-              "RelativeDocumentMoniker": "UtilityLibrarysy\\Vector4.h",
-              "ToolTip": "D:\\GC\\UtilityLibrarySY\\UtilityLibrarysy\\UtilityLibrarysy\\Vector4.h",
-              "RelativeToolTip": "UtilityLibrarysy\\Vector4.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-28T08:03:03.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Vector3.h",
               "DocumentMoniker": "D:\\GC\\UtilityLibrarySY\\UtilityLibrarysy\\UtilityLibrarysy\\Vector3.h",
               "RelativeDocumentMoniker": "UtilityLibrarysy\\Vector3.h",
@@ -52,30 +43,58 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-10-28T08:02:14.365Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Vector2.h",
               "DocumentMoniker": "D:\\GC\\UtilityLibrarySY\\UtilityLibrarysy\\UtilityLibrarysy\\Vector2.h",
               "RelativeDocumentMoniker": "UtilityLibrarysy\\Vector2.h",
               "ToolTip": "D:\\GC\\UtilityLibrarySY\\UtilityLibrarysy\\UtilityLibrarysy\\Vector2.h",
               "RelativeToolTip": "UtilityLibrarysy\\Vector2.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAPAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-28T08:01:14.806Z",
+              "WhenOpened": "2024-10-28T08:07:16.501Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Quaternion.h",
+              "DocumentMoniker": "D:\\GC\\UtilityLibrarySY\\UtilityLibrarysy\\UtilityLibrarysy\\Quaternion.h",
+              "RelativeDocumentMoniker": "UtilityLibrarysy\\Quaternion.h",
+              "ToolTip": "D:\\GC\\UtilityLibrarySY\\UtilityLibrarysy\\UtilityLibrarysy\\Quaternion.h",
+              "RelativeToolTip": "UtilityLibrarysy\\Quaternion.h",
+              "ViewState": "AQIAACoAAAAAAAAAAAAqwFkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-28T08:11:00.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Vector4.h",
+              "DocumentMoniker": "D:\\GC\\UtilityLibrarySY\\UtilityLibrarysy\\UtilityLibrarysy\\Vector4.h",
+              "RelativeDocumentMoniker": "UtilityLibrarysy\\Vector4.h",
+              "ToolTip": "D:\\GC\\UtilityLibrarySY\\UtilityLibrarysy\\UtilityLibrarysy\\Vector4.h",
+              "RelativeToolTip": "UtilityLibrarysy\\Vector4.h",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAqwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-28T08:07:22.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "UtilityLibrarysy.cpp",
               "DocumentMoniker": "D:\\GC\\UtilityLibrarySY\\UtilityLibrarysy\\UtilityLibrarysy\\UtilityLibrarysy.cpp",
               "RelativeDocumentMoniker": "UtilityLibrarysy\\UtilityLibrarysy.cpp",
               "ToolTip": "D:\\GC\\UtilityLibrarySY\\UtilityLibrarysy\\UtilityLibrarysy\\UtilityLibrarysy.cpp",
               "RelativeToolTip": "UtilityLibrarysy\\UtilityLibrarysy.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-28T07:52:31.243Z",
               "EditorCaption": ""
