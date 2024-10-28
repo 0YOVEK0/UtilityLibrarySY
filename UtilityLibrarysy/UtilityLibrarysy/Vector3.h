@@ -1,5 +1,6 @@
 #pragma once
 #ifndef VECTOR3_H
+
 #define VECTOR3_H
 
 #include <cmath>
@@ -8,32 +9,37 @@ class Vector3 {
 public:
     float x, y, z;
 
-    // Constructor por defecto
-    Vector3();
+    Vector3() : x(0), y(0), z(0) {}
+    Vector3(float x, float y, float z) : x(x), y(y), z(z) {}
 
-    // Constructor parametrizado
-    Vector3(float x, float y, float z);
+    Vector3 operator+(const Vector3& other) const {
+        return Vector3(x + other.x, y + other.y, z + other.z);
+    }
 
-    // Sobrecarga del operador + para la suma de vectores
-    Vector3 operator+(const Vector3& other) const;
+    Vector3 operator-(const Vector3& other) const {
+        return Vector3(x - other.x, y - other.y, z - other.z);
+    }
 
-    // Sobrecarga del operador - para la resta de vectores
-    Vector3 operator-(const Vector3& other) const;
+    Vector3 operator*(float scalar) const {
+        return Vector3(x * scalar, y * scalar, z * scalar);
+    }
 
-    // Sobrecarga del operador * para la multiplicación por un escalar
-    Vector3 operator*(float scalar) const;
+    float magnitude() const {
+        return std::sqrt(x * x + y * y + z * z);
+    }
 
-    // Método para calcular la magnitud del vector
-    float magnitude() const;
+    Vector3 normalize() const {
+        float mag = magnitude();
+        return (mag == 0) ? Vector3(0, 0, 0) : Vector3(x / mag, y / mag, z / mag);
+    }
 
-    // Método para normalizar el vector
-    Vector3 normalize() const;
+    float* data() {
+        return &x;
+    }
 
-    // Método para acceder a los datos del vector
-    float* data();
-
-    // Versión constante de data
-    const float* data() const;
+    const float* data() const {
+        return &x;
+    }
 };
 
-#endif
+#endif // VECTOR3_H
